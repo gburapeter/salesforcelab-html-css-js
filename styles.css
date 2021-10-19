@@ -1,3 +1,16 @@
 body {
-  background: orange;
+  background: rgb(131, 188, 202);
 }
+
+dt {
+  color:blue;
+  font-weight: bold;
+  display:inline-block;
+
+}
+
+.doneTask{
+  color:green;
+  text-decoration: line-through;
+}
+

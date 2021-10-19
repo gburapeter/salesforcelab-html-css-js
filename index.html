@@ -2,16 +2,25 @@
   <head>
     <meta charset="UTF-8">
     <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
 
     <header>
-      <h1>This is our ToDO list:</h1>
+      <h1 id="asd">This is our ToDO list:</h1>
+
+      <form action="">
+        <label for="fname">Task name</label><br>
+        <input type="text" id="taskName" name="fname" value=""><br>
+        <label for="lname">Task description</label><br>
+        <input type="text" id="taskDescription" name="lname" value=""><br><br>
+      </form> 
   
     </header>
+    <button id="myButton" type="button" onclick="fetchData()">Click me to add a new task!</button>
   
     <dl id="myList">
+      <!--
       <dt class='doneTask'>Wake Up</dt>
       <dd>Get out of the bed</dd>
       <dt class ='doneTask'>Start classes</dt>
@@ -24,12 +33,16 @@
       <dd>You should do the task</dd>
       <dt>Play sports</dt>
       <dd>A healthy lifestyle requires sports</dd>
+      -->
     </dl>
-  
+
+    
+   <!--
     <footer>
       <p>Author: Team Codey</p>
       <p><a href="mailto:codey@example.com">codeyteam@gmail.com</a></p>
     </footer>
+    -->
   </body>
   
 </html>
